@@ -39,7 +39,7 @@ Now run the program again, and put 7 and 6.
 Now run the program again, and put 7 and 1. If you've run it in IDLE, you can type the following into the shell:
 
 	>>> with open('7/1a.txt','rb') as fp:
-	>>> 	dd = pickle.load(fp)
+	    	dd = pickle.load(fp)
 	>>> len(dd)
 	>>> sum([len(dd[k]) for k in dd])
 	>>> max([len(dd[k]) for k in dd])
