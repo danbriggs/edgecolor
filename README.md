@@ -39,13 +39,13 @@ Now run the program again, and put 7 and 6.
 Now run the program again, and put 7 and 1. If you've run it in IDLE, you can type the following into the shell:
 
 	>>> with open('7/1a.txt','rb') as fp:
-	>>>		dd = pickle.load(fp)
-	>>>	len(dd)
-	>>>	sum([len(dd[k]) for k in dd])
-	>>>	max([len(dd[k]) for k in dd])
-	>>>	keylist = list(dd)
-	>>>	key = keylist[0]
-	>>>	dd[key]
+	>>> 	dd = pickle.load(fp)
+	>>> len(dd)
+	>>> sum([len(dd[k]) for k in dd])
+	>>> max([len(dd[k]) for k in dd])
+	>>> keylist = list(dd)
+	>>> key = keylist[0]
+	>>> dd[key]
 
 It will tell you the only graph with one edge, which is [(0,1)] up to isomorphism, extended by who wins in this case. So it will say [[(0, 1), 0]] if it's an Alice win and [[(0, 1), 1]] if it's a Bob win.
 
