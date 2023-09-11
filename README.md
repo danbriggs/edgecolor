@@ -4,7 +4,7 @@ Then when the program asks you Number of vertices? put 7.
 
 When it asks you Up to how many turns? put 9.
 
-The program will generate one graph from each isomorphism class of K₉s with five red edges, four blue edges, and the rest colorless, that have no complete triangle of either color.
+The program will generate one graph from each isomorphism class of K₇s with five red edges, four blue edges, and the rest colorless, that have no complete triangle of either color.
 
 On its way up, it will do the same for those with 1,...,8 colorful edges where the number of red edges is either equal to or one greater than the number of blue edges.
 
